@@ -29,7 +29,7 @@ In the project directory, you can run:
 
 ### To start the app in dev mode
 #### `npm run dev`
-Open `http://${process.env.IP_ADDRESS}:${process.env.PORT}` to view it in the browser.\
+Open `http://${process.env.IP_ADDRESS}:${process.env.PORT}` to view it in the browser.
 
 ### For production mode
 #### `npm start`
@@ -38,7 +38,7 @@ Open `http://${process.env.IP_ADDRESS}:${process.env.PORT}` to view it in the br
 #### `npm run test`
 
 ## Docker Deployment
-### `docker-compose up -d`
+### `docker compose up -d`
 
 ## Folder Definition
 - **src**
