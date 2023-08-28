@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": ["eslint:recommended", "eslint-config-prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "no-extra-semi": "off",
+        "no-underscore-dangle": "off"
+    },
+    "ignorePatterns": [".eslintrc.json"],
+    "root": true
+}

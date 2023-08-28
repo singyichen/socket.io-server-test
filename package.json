@@ -1,0 +1,38 @@
+{
+  "name": "socket.io-server-test",
+  "version": "1.0.0",
+  "description": "Project for unit testing socket.io server",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand --forceExit --colors --watchAll --coverage --verbose",
+    "start": "node app.js",
+    "dev": "./node_modules/.bin/nodemon app.js"
+  },
+  "author": "mandy",
+  "keywords": [
+    "socket.io",
+    "websocket",
+    "unit",
+    "unit testing",
+    "jest",
+    "fastify"
+],
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "fastify-cli": "^4.4.0",
+    "fastify-plugin": "^3.0.0",
+    "jest": "^29.6.4",
+    "socket.io": "^4.5.1",
+    "dotenv": "^16.3.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.2",
+    "prettier-eslint-cli": "^7.1.0"
+  }
+}
