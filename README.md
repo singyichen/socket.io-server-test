@@ -22,23 +22,46 @@ A project to learn socket io server and unit testing with jest.
     - [Docker](https://www.docker.com/)：v20.10.18
 
 ## Install
-### `npm i`
+### Clone the project to local
+```
+git clone https://github.com/singyichen/socket.io-server-test.git
+```
+
+### Add `.env` to project
+```
+cp .env.example .env
+vim .env
+```
+
+### Install Dependencies
+```
+npm i
+```
 
 ## Available Scripts
 In the project directory, you can run:
 
 ### To start the app in dev mode
-#### `npm run dev`
-Open `http://${process.env.IP_ADDRESS}:${process.env.PORT}` to view it in the browser.
+```
+npm run dev
+```
 
 ### For production mode
-#### `npm start`
+```
+npm start
+```
 
 ### Run the test cases
-#### `npm run test`
+```
+npm run test
+```
 
 ## Docker Deployment
-### `docker compose up -d`
+Build docker image and run container
+
+```
+docker compose up -d
+```
 
 ## Folder Definition
 - **src**
@@ -62,7 +85,7 @@ Open `http://${process.env.IP_ADDRESS}:${process.env.PORT}` to view it in the br
 │  jest.config.js
 │  package-lock.json
 │  package.json
-│  README.md│
+│  README.md
 │
 ├─src
 │  │  api.js
