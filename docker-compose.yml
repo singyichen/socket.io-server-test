@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  socketio_server_test:
+    build:
+      dockerfile: dockerfile
+    image: socketio-server-test:1.0.0
+    container_name: socketio-server-test
+    ports:
+      - "3000:3000"
+    restart: always
+
