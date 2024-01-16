@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --runInBand --forceExit --colors --watchAll --coverage --verbose",
     "start": "node app.js",
-    "dev": "./node_modules/.bin/nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "author": "mandy",
   "keywords": [
