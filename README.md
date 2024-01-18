@@ -97,6 +97,7 @@ docker compose up -d
 │  docker-compose.yml
 │  dockerfile
 │  jest.config.js
+│  nginxWithSocketIOServer.js
 │  package-lock.json
 │  package.json
 │  README.md
