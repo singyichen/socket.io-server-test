@@ -57,6 +57,20 @@ npm run test
 ```
 
 ## Docker Deployment
+### Use a single docker command
+Build docker image
+
+```
+docker build -t socketio_server_test:1.0.0 --no-cache .
+```
+
+Run container
+
+```
+docker run -d --name socketio_server_test -p 3000:3000 --restart=always socketio_server_test:1.0.0
+```
+
+### Use docker compose
 Build docker image and run container
 
 ```
